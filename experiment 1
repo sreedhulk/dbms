@@ -1,0 +1,59 @@
+SELECT * FROM PURCHASE;
+
+ORDER_NO	CUSTNO		PRONO		  QUANTITY ORDERDATE
+--------------- --------------- --------------- ---------- ------------------
+O00001		C00002		P00003			 2 20-JAN-16
+O00002		C00003		P00002			 1 27-JAN-16
+O00003		C00006		P00001			 3 20-FEB-16
+O00004		C00003		P00005			 4 07-APR-16
+O00005		C00004		P00002			 2 22-MAY-16
+O00006		C00005		P00004			 1 26-MAY-16
+
+
+
+
+SELECT * FROM PRODUCT;
+
+PRODUCT_NO	DESCRIPTION	COMPANY 	     PRICE
+--------------- --------------- --------------- ----------
+P00001		12 W FLOODLIGHT WIPRO		      5000
+P00002		LAPTOP ADAPATER DELL		      1560
+P00003		TABLET		HCL		     11000
+P00004		GARNET 50W LED	WIPRO		       999
+P00005		LAPTOP CHARGER	HCL		      1690
+
+
+SELECT * FROM CUSTOMER;
+
+CUST_NO 	NAME							  AGE CITY						    PINCODE STATE
+--------------- -------------------------------------------------- ---------- -------------------------------------------------- ---------- --------------------------------------------------
+C00001		IVAN							   35 BOMBAY						      40054 MAHARASHTRA
+C00002		VANDANA 						   35 MADRAS						     780001 TAMILNADU
+C00003		PRAMADA 						   55 BOMBAY						     400057 MAHARASHTRA
+C00004		BASU							   45 BOMBAY						     400056 MAHARASHTRA
+C00005		RAVI							   25 DELHI						     100001 DELHI
+C00006		RUKMINI 						   25 MADRAS						     780001 TAMILNADU
+
+
+
+SELECT * FROM SUPPLIER;
+
+S_NO	   S_NAME		  AGE CITY
+---------- --------------- ---------- ---------------
+S001	   IVAN 		   35 BOMBAY
+S002	   NIRMALA		   35 MADRAS
+S003	   SUSMITA		   55 BOMBAY
+S004	   BASU 		   45 BOMBAY
+S005	   RAVI 		   25 DELHI
+S006	   NANDA GOPAL		   25 MADRAS
+
+
+1)Ist all customers in Madras
+
+
+2)list all customers-number of all who purchase the product in the month of January
+
+
+3)
+
+
