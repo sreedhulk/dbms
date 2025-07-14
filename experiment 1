@@ -47,13 +47,41 @@ S004	   BASU 		   45 BOMBAY
 S005	   RAVI 		   25 DELHI
 S006	   NANDA GOPAL		   25 MADRAS
 
+-----------------------------------------------------------------
 
 1)Ist all customers in Madras
 
 
 2)list all customers-number of all who purchase the product in the month of January
 
+SELECT DISTINCT CUSTNO
+FROM PURCHASE
+WHERE ORDERDATE = TO_DATE('01-JAN-2016', 'DD-MON-YYYY');
 
-3)
+
+
+3)SELECT DISTINCT COMPANY
+FROM PRODUCT
+WHERE PRICE > 5000;
+
+COMPANY
+---------------
+HCL
+
+
+
+4)
+
+SELECT * FROM CUSTOMER
+WHERE LOWER(NAME) NOT LIKE 'r%';
+
+ 2  
+CUST_NO 	NAME							  AGE CITY						    PINCODE STATE
+--------------- -------------------------------------------------- ---------- -------------------------------------------------- ---------- --------------------------------------------------
+C00001		IVAN							   35 BOMBAY						      40054 MAHARASHTRA
+C00002		VANDANA 						   35 MADRAS						     780001 TAMILNADU
+C00003		PRAMADA 						   55 BOMBAY						     400057 MAHARASHTRA
+C00004		BASU							   45 BOMBAY						     400056 MAHARASHTRA
+
 
 
